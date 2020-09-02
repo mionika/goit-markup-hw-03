@@ -77,6 +77,9 @@
     display: block;
     padding-bottom: 20px;
     padding-top: 20px;
+    text-decoration: none;
+    color: var(--title-text-color);
+      
   }
 .main-menu-item a:hover,
 .main-menu-item a:focus {
