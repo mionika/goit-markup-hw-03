@@ -151,10 +151,6 @@ ul, li {
   margin-left: auto;
   color: var(--primary-text-color);
 }
-.contacts:hover,
-.contacts:focus {
-  color: var(--accent-color);
-}
 .email {
   display: block;
   color: var(--primary-text-color);
@@ -180,7 +176,6 @@ ul, li {
   margin-top: 94px;
   margin-bottom: 94px;
   padding-left: 0;
-
 }
 .blocks-list h2 {
   display: block;
@@ -275,12 +270,12 @@ margin-left: 30px;
 .address-footer{
   margin-top: 20px;
   line-height: 25px;
-  color:var(--primary-white-color);
   padding-left: 15px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts-footer-mail{
-  color:var(--primary-white-color);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.2;
@@ -294,3 +289,13 @@ margin-left: 30px;
   line-height: 1.2;
   text-decoration: none;
 }
+.contacts-footer-mail:hover,
+.contacts-footer-mail:focus,
+.contacts-footer-tel:hover,
+.contacts-footer-tel:focus {
+   color:var(--primary-white-color);
+}
+  
+
+
+
