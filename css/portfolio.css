@@ -86,7 +86,7 @@
   }
   .link:hover,
   .link:focus {
-    color: var(--accent-color);
+    color: var(--primary-white-color);
   }
   .contacts {
     display: flex;
@@ -94,12 +94,9 @@
     color: var(--primary-text-color);
     padding-left: 15px;
   }
-  .contacts:hover,
-  .contacts:focus {
-    color: var(--accent-color);
-  }
-  .email {
+   .email {
     display: block;
+    text-decoration: none;
   }
   
   .tel {
