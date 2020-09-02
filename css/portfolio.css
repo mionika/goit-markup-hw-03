@@ -75,11 +75,10 @@
   }
   .main-menu-item a {
     display: block;
-    padding-bottom: 20px;
-    padding-top: 20px;
     text-decoration: none;
     color: var(--title-text-color);
-      
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 .main-menu-item a:hover,
 .main-menu-item a:focus {
