@@ -78,6 +78,11 @@
     padding-bottom: 20px;
     padding-top: 20px;
   }
+.main-menu-item:hover,
+.main-menu-item:focus {
+    color: var(--accent-color);
+}
+
   .link {
     display: block;
     color: var(--title-text-color);
