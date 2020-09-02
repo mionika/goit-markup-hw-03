@@ -78,8 +78,8 @@
     padding-bottom: 20px;
     padding-top: 20px;
   }
-.main-menu-item:hover,
-.main-menu-item:focus {
+.main-menu-item a:hover,
+.main-menu-item a:focus {
     color: var(--accent-color);
 }
 
