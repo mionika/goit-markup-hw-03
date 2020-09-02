@@ -223,11 +223,33 @@
   color: var(--primary-text-color);
   margin-top: 4px;
 }
-.container-footer {
-  margin-top: 104px;
-  width: 1230px;
+.address-footer{
+  margin-top: 20px;
+  line-height: 25px;
   padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  background-color: #2F303A;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer-mail{
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.contacts-footer-tel{
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.address-footer:hover,
+.address-footer:focus,
+.contacts-footer-mail:hover,
+.contacts-footer-mail:focus,
+.contacts-footer-tel:hover,
+.contacts-footer-tel:focus {
+   color:var(--primary-white-color);
 }
