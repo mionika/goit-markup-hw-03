@@ -230,6 +230,19 @@
   color: var(--primary-text-color);
   margin-top: 4px;
 }
+.container-footer{
+  width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#2F303A;
+  padding-left: 15px;
+  padding-right: 15px;  
+}
+.footer{
+  margin-top: 94px;
+  background-color: #2F303A;
+}
 .address-footer{
   margin-top: 20px;
   line-height: 25px;
